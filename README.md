@@ -33,5 +33,5 @@ Tools: Git, GitHub
 
 Contact
 
-Email: your-email-here
-LinkedIn: your-link-here
+Email: suyash.strive@gmail.com
+

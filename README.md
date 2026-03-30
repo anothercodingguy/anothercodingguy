@@ -1,37 +1,29 @@
 Suyash Singh
+CS student at MIT Bengaluru · AI/ML & Backend Engineering
 
-AI/ML & Full-Stack Developer
+Building production-grade AI systems and backend infrastructure — focused on LLM pipelines, AIOps, and systems that hold up under real-world constraints.
 
-I build production-ready web applications and AI/ML systems, with a strong focus on backend architecture, performance, and real-world usability.
+Featured projects:
 
-Current Work
+Vidhived.ai— AI-powered legal document analyzer
+OCR → clause extraction → LLM risk classification, fully decoupled with BullMQ. Plain-English output for non-lawyers.
+React · Next.js · Node.js · Python · LLMs
 
-SmartTatkal
-Full-stack Tatkal / IRCTC booking assistant
-React · Node.js · Express · Tailwind CSS
+The Watcher— AIOps & auto-remediation platform
+11+ microservices on Kubernetes. ONNX model detects failure signatures in under 15s and triggers automatic pod restarts via NATS.
+Python · FastAPI · Kubernetes · ONNX · Prometheus
 
-Cryptographic Algorithm Identification (AI/ML)
-Machine learning system for identifying cryptographic algorithms
-Python · scikit-learn · PyTorch
+Machine Unlearning Research— Published at ICDDS 2025
+Gradient-based weight erasure with pipelines to visualize accuracy trade-offs before and after unlearning.
+Python · PyTorch
 
-Interests
+Skills:
 
-Software Engineering Internships
+Languages: Java · Python · TypeScript · JavaScript · C++ · SQL  
+AI / ML: PyTorch · LLM Pipelines · RAG · Vector DBs · Machine Unlearning  
+Backend: Node.js · Express · FastAPI · REST APIs · BullMQ  
+Frontend: React · Next.js · Tailwind CSS  
+Infra: Docker · Kubernetes · Prometheus · Grafana · GCP · Redis
 
-AI/ML Engineering Internships
-
-Open-source programs (GSoC, long-term OSS)
-
-Skills
-
-Languages: C, C++, Java, Python, JavaScript, TypeScript, Kotlin
-Frontend: React, Next.js, HTML, CSS, Tailwind
-Backend: Node.js, Express, MongoDB, MySQL, Firebase, .NET
-AI/ML: PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, OpenCV
-Cloud/DevOps: AWS, GCP, Docker, Firebase, Netlify, Vercel
-Tools: Git, GitHub
-
-Contact
-
-Email: suyash.strive@gmail.com
-
+Reach me:
+suyash.strive@gmail.com

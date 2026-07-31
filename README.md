@@ -15,7 +15,7 @@ Semantic caching with Qdrant + Hugging Face Sentence-Transformers (sub-50ms cach
 `Python` `FastAPI` `Kubernetes` `ONNX` `Prometheus` `NATS` `KEDA`
 
 [Vidhived.ai](https://github.com/anothercodingguy/vidhived-ai) — AI-powered legal document analyzer
-OCR → clause extraction → LLM risk classification, fully decoupled with BullMQ. Plain-English output for non-lawyers. Live at [vidhived-frontend.onrender.com](https://vidhived-frontend.onrender.com/)
+OCR → clause extraction → LLM risk classification, fully decoupled with BullMQ. Plain-English output for non-lawyers.
 `React` `Next.js` `Python` `Flask` `Groq LLMs` `Docker` ★ v1.0.0 released
 
 [KnowledgeBridge](https://github.com/anothercodingguy/KnowledgeBridge) — Intelligent knowledge management with semantic search

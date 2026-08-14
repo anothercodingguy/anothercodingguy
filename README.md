@@ -29,7 +29,9 @@ Co-authored peer-reviewed publication on GDPR-compliant machine unlearning frame
 ## Experience
 
 **AI Intern — Stealth Startup** · Dec 2025 – May 2026 · Bengaluru, India
-Built backend systems for a Mistral-powered conversational AI platform with memory-augmented agentic workflows and multi-turn dialogue. Integrated NLP-based entity/intent extraction and designed REST APIs and AWS-based inference services handling conversation state, routing, and session management at scale.
+Architected and deployed scalable REST APIs and distributed inference pipelines on AWS, engineering highly concurrent state
+machine logic and multi-turn session management.
+Engineered intelligent routing logic and resilient backend services, optimizing concurrent request handling and backend fault tolerance.
 
 **R&D Intern — IEEE Computer Society, Bangalore Chapter** · Apr 2025 – Sep 2025
 Authored technical workshop documentation on AI and systems topics for 100+ students across multiple cohorts; distilled recent research papers into beginner-accessible write-ups used as official onboarding material.

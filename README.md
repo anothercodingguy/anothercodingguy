@@ -4,27 +4,31 @@ CS (Data Science) Student @ MIT Bengaluru · Published AI Researcher (ICDDS 2025
 
 Building production-grade AI systems and backend infrastructure — focused on LLM pipelines, fault-tolerant distributed systems, ML-driven AIOps, and infrastructure tuned for ultra-low latency, scale, and high availability.
 
-## Featured Projects
+Featured Projects
 
-**Semantic LLM Gateway & Routing Proxy** — Production-grade OpenAI-compatible router & cache for Groq LLMs
-Semantic caching with Qdrant + Hugging Face Sentence-Transformers (sub-50ms cache-hit latency), cost-aware routing between Llama 3.1 8B and Llama 3.3 70B based on prompt complexity, and an Ollama-based fallback circuit breaker for upstream rate-limits or downtime. Ships with a real-time observability dashboard tracking cost savings and latency.
-`FastAPI` `Qdrant` `Hugging Face` `Groq` `Ollama` `Redis`
+PathFlow — AI-Powered Production Debugging Platform
+AI-assisted production debugging platform that correlates logs, traces, runtime context, execution paths, Git history, and deployments to identify root causes and generate evidence-backed fixes. Built an end-to-end investigation workflow from production failure to reproduction, diagnosis, and remediation, with an emphasis on reducing debugging time and improving developer observability.
+Python · FastAPI · LLMs · RAG · PostgreSQL · Redis · Docker
 
-**AIOps Auto-Remediation Platform (The Watcher)** — Self-healing infra modeled on IRCTC-scale booking systems
-11+ microservices on Kubernetes validated under 5,000+ RPS, an edge-deployed ONNX anomaly detector via WebAssembly (sub-15s failure detection), and NATS-driven self-healing with zero manual intervention.
-`Python` `FastAPI` `Kubernetes` `ONNX` `Prometheus` `NATS` `KEDA`
+Semantic LLM Gateway & Routing Proxy — Production-Grade LLM Infrastructure
+OpenAI-compatible gateway for Groq with semantic caching, intelligent model routing, and resilient fallbacks. Uses Qdrant and Sentence-Transformers for sub-50 ms cache-hit latency, routes requests between Llama 3.1 8B and Llama 3.3 70B based on prompt complexity and cost, and automatically falls back to Ollama during upstream rate limits or downtime. Includes real-time observability for latency, usage, and cost savings.
+FastAPI · Qdrant · Hugging Face · Groq · Ollama · Redis
 
-[KnowledgeBridge](https://github.com/anothercodingguy/KnowledgeBridge) — Intelligent knowledge management with semantic search
-Natural language Q&A over technical documents using Haystack pipelines and dense vector retrieval.
-`Python` `Haystack` `Streamlit` `Vector Search` `RAG`
+AIOps Auto-Remediation Platform (The Watcher)
+Self-healing infrastructure platform inspired by IRCTC-scale booking systems, composed of 11+ Kubernetes microservices and validated at 5,000+ RPS. Deployed an edge anomaly detector using ONNX and WebAssembly for sub-15-second failure detection, with NATS-driven automated remediation and zero manual intervention.
+Python · FastAPI · Kubernetes · ONNX · WebAssembly · Prometheus · NATS · KEDA
 
-[JanSahayak (hackblr)](https://github.com/anothercodingguy/hackblr) — Multilingual welfare benefits navigator
-Voice-first (Hindi/Kannada/English) government scheme navigator with Qdrant RAG and Vapi voice integration.
-`Next.js` `TypeScript` `Qdrant` `RAG` `Voice AI`
+KnowledgeBridge — Intelligent Knowledge Management
+Semantic knowledge-management platform enabling natural-language Q&A over technical documentation through Haystack pipelines and dense vector retrieval. Designed for fast document discovery, contextual retrieval, and grounded question answering across large technical knowledge bases.
+Python · Haystack · Vector Search · RAG · Streamlit
 
-**Self-Erasing Neural Networks (SENNs)** — Published at ICDDS 2025
-Co-authored peer-reviewed publication on GDPR-compliant machine unlearning frameworks; built pipelines to visualize weight-magnitude shifts and per-class accuracy trade-offs from gradient-based erasure.
-`Python` `PyTorch` · DOI: [link to be added upon publication]
+JanSahayak (HackBLR) — Multilingual Welfare Benefits Navigator
+Voice-first government welfare scheme navigator supporting Hindi, Kannada, and English. Combines Qdrant-powered RAG with Vapi voice integration to help users discover relevant public-benefit schemes through natural-language interaction.
+Next.js · TypeScript · Qdrant · RAG · Voice AI · Vapi
+
+Self-Erasing Neural Networks (SENNs) — Published at ICDDS 2025
+Co-authored a peer-reviewed research publication on GDPR-compliant machine unlearning. Built PyTorch pipelines to study gradient-based erasure, visualize weight-magnitude shifts, and evaluate per-class accuracy trade-offs during selective model forgetting.
+Python · PyTorch · Machine Unlearning · Deep Learning
 
 ## Experience
 
